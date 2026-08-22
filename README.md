@@ -21,9 +21,7 @@ The goal of this project is to:
 
 Check whether Bash is installed:
 
-```bash
 bash --version
-```
 
 ## Getting Started
 
@@ -35,19 +33,15 @@ git clone https://github.com/Rahul001-lab/Bash-Scripts.git
 
 Enter the repository:
 
-```bash
 cd bash-automation-scripts
-```
 
 Scripts will be added to the repository as the project develops.
 
 ## Running a Script
 
-Once scripts are added, make a script executable:
+Once scripts are added, make a script executable:-
 
-```bash
 chmod +x script_name.sh
-```
 
 Then run it:
 
@@ -55,9 +49,7 @@ Then run it:
 
 Alternatively:
 
-```bash
 bash script_name.sh
-```
 
 ## Planned Scripts
 
