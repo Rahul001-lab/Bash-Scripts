@@ -27,9 +27,7 @@ bash --version
 
 Clone the repository:
 
-```bash
 git clone https://github.com/Rahul001-lab/Bash-Scripts.git
-```
 
 Enter the repository:
 
