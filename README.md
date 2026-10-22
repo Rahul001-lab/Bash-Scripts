@@ -1,85 +1,103 @@
 # Bash Automation Scripts
 
-A collection of Bash scripts created to automate common and repetitive tasks on Linux systems.
+A collection of practical Bash scripts for Linux and Kali Linux, focused on automation, system administration, networking, cybersecurity, monitoring, and backup management.
 
-This repository is a personal automation project where I will gradually add useful Bash scripts for system administration, file management, networking, backups, monitoring, and other everyday tasks.
+This repository is a hands-on project for building useful command-line tools that automate repetitive tasks and solve real-world problems.
 
-## About
+## Features
 
-The goal of this project is to:
+- **System Administration:** System information, CPU and memory monitoring, process inspection, disk usage alerts, and resource auditing.
+- **File Management:** File searching, duplicate detection, directory analysis, archive extraction, and file organization.
+- **Backup & Recovery:** Automated backups, Git backups, backup integrity verification, and SHA-256 checksum validation.
+- **Networking:** Port checking, network information, HTTP status checks, DNS enumeration, and network reconnaissance.
+- **Cybersecurity:** Web vulnerability checks, API security auditing, endpoint mapping, TLS inspection, and security log analysis.
+- **Monitoring:** Website health checks, service monitoring, process monitoring, system change detection, and subdomain monitoring.
+- **Automation:** Project initialization, Git repository auditing, download organization, system cleanup, and daily task management.
+- **Utilities:** Password generation, quick notes, and other command-line productivity tools.
 
-* Learn and improve Bash scripting skills
-* Automate repetitive tasks
-* Build practical Linux utilities
-* Create reusable command-line tools
-* Maintain a collection of useful automation scripts
+## Notable Scripts
+
+| Script | Description |
+|---|---|
+| `smart_resource_guard.sh` | Monitors CPU, RAM, swap, disk, and processes. |
+| `smart_storage_auditor.sh` | Analyzes storage usage, large files, and old files. |
+| `smart_git_guard.sh` | Audits Git status, branches, remotes, and potential secret exposure. |
+| `smart_backup_verifier.sh` | Verifies file integrity using SHA-256 manifests. |
+| `web_vuln_scanner.sh` | Checks common web security misconfigurations. |
+| `api_security_checker.sh` | Audits API headers, CORS, cookies, and HTTP methods. |
+| `api_endpoint_mapper.sh` | Maps known API endpoints and records response information. |
+| `tls_auditor.sh` | Checks TLS certificates and protocol support. |
+| `subdomain_monitor.sh` | Tracks subdomain DNS, IP, and HTTP status changes. |
+| `system_change_detector.sh` | Detects differences between system snapshots. |
+| `log_anomaly_detector.sh` | Identifies unusual patterns in system logs. |
+| `site_health_report.sh` | Generates website health and configuration reports. |
+| `process_watchdog.sh` | Checks selected processes and logs their status. |
 
 ## Requirements
 
-* Linux or Unix-based operating system
-* Bash
+- Linux or Kali Linux
+- Bash
+- Git
+- Standard Linux command-line utilities
 
-Check whether Bash is installed:
-
-bash --version
+Some scripts require additional tools, including `curl`, `openssl`, `nmap`, `gobuster`, `whatweb`, `nikto`, or `subfinder`.
 
 ## Getting Started
 
 Clone the repository:
 
-git clone https://github.com/Rahul001-lab/Bash-Scripts.git
-
-Enter the repository:
-
+```bash
+git clone <YOUR_GITHUB_REPOSITORY_URL>
 cd bash-automation-scripts
+```
 
-Scripts will be added to the repository as the project develops.
+Make a script executable:
 
-## Running a Script
-
-Once scripts are added, make a script executable:-
-
+```bash
 chmod +x script_name.sh
+```
 
-Then run it:
+Run it:
 
+```bash
 ./script_name.sh
+```
 
-Alternatively:
+Some scripts require arguments or configuration files. Check their usage instructions before running them.
 
-bash script_name.sh
+## Security & Responsible Use
 
-## Planned Scripts
+- Run security and reconnaissance scripts only on systems you own or have explicit permission to test.
+- Review scripts before execution, especially scripts that modify files or system settings.
+- Never commit passwords, API keys, tokens, or private credentials.
+- Treat scanner results as preliminary findings that may require manual verification.
+- Keep backups before running scripts that perform cleanup or other system modifications.
 
-The repository will gradually include scripts for tasks such as:
+## Learning Objectives
 
-* File and directory automation
-* System information
-* Backup automation
-* Log management
-* File cleanup
-* Network utilities
-* System monitoring
-* User management
-* Package management
-* Security-related automation
+This project helps develop practical experience with:
 
-More scripts and categories will be added over time.
-
-## Project Status
-
-**Currently:** Repository setup / Initial stage
-
-The project is currently being set up. Scripts will be added progressively as new automation tasks are developed.
+- Bash scripting and automation
+- Linux system administration
+- Networking and DNS troubleshooting
+- Cybersecurity auditing and reconnaissance
+- Process and resource monitoring
+- Backup management and file integrity
+- Git and version control
 
 ## Contributing
 
-Suggestions, improvements, and new automation ideas are welcome.
+Suggestions, improvements, bug fixes, and new scripts are welcome.
+
+1. Fork the repository.
+2. Create a new branch.
+3. Add and test your changes.
+4. Submit a pull request.
 
 ## License
 
-This project is licensed under the MIT License.
+A license can be added to define how others may use, modify, and distribute this project.
 
-## Author
+---
 
-Rahul Tewatia
+**A growing collection of practical Linux automation and cybersecurity tools.**
